@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Arapey:ital@0;1&family=Cormorant+Garamond:wght@300&display=swap');
+
+* {
+    margin:0;
+    padding:0;
+    border:none;
+}
+
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Cormorant Garamond, sans-serif;
+    font-weight:300;
 }
