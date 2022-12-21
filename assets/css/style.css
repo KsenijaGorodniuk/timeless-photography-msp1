@@ -58,7 +58,7 @@ header {
     color:#c24643
 }
 
-/* home-hero section */
+/* home section */
 
 #home {
     height: 500px;
@@ -109,12 +109,32 @@ header {
     object-fit:cover;
 }
 
-/* home-hero section */
+/* about-us section */
 
 #about-us {
     height: 500px;
     width:100%;
     background-color:#babfaa;
     color:#121210;
+}
+
+#about-left-section {
+    padding-top:30px;
+    width:33%;
+    float:left;
+    background-color: azure;
+}
+
+#about-right-section {
+    padding-top:30px;
+    width:33%;
+    float:right;
+    background-color: #121210;
+}
+
+#about-center-section {
+    width:33%;
+    margin:0 auto;
+    background-color:#c24643;
 }
 
