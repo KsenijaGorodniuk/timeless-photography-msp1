@@ -177,8 +177,26 @@ hr {
 #about-center-section {
     width:33%;
     margin:0 auto;
-    background-color:#c24643;
+    padding-top:130px;
 }
 
+#arch-container {
+    width:400px;
+    height:250px;
+    border-style:solid;
+    border-color:#c24643;
+    border-width:7px;
+    border-radius: 120px 0 0 120px;
+    transform: rotate(90deg);
+    background: url(images/vintage-photo-2.jpg)no-repeat center center;
+}
 
-
+#arch-cover-bg {
+background: url(images/vintage-photo-2.jpg)no-repeat center center;
+background-size: 250px;
+object-fit: cover;
+background-position-x: center;
+transform: rotate(-90deg);
+height:100%;
+border-radius: 50%;
+}
