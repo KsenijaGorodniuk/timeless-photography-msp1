@@ -78,15 +78,17 @@
         </div>
     </section>
     <section id="get-in-touch">
-        <form method="post" action="https://formdump.codeinstitute.net/" class="get-in-touch-form text-input">
+        <form method="post" action="https://formdump.codeinstitute.net/" class="get-in-touch-form">
             <h2><strong>Get in Touch</strong></h2>
+            <div class="text-input">
             <label for="first-name">First Name</label>
             <input id="first-name" type="text" name="first_name" required>
             <label for="last-name">Last Name (optional) </label>
             <input id="last-name" type="text" name="last_name">
             <label for="email-address">Email Address</label>
             <input id="email-address" type="email" name="email_address" required>
-
+            </div>
+            <div class="checkbox-input">
             <label for="color-restoration">Color restoration</label>
             <input id="color-restoration" type="checkbox" name="restoration" value="yes">
             <label for="repair">Damaged photo repair</label>
@@ -94,6 +96,7 @@
             <label for="frame">Custom-made archive quality photo frame</label>
             <input id="both" type="checkbox" name="restoration" value="yes">
             <input type="submit" value="Submit">
+            </div>
         </form>
     </section>
     <footer> links to social media</footer>
