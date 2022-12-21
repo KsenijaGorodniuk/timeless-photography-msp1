@@ -313,11 +313,22 @@ footer {
 
 /* Media queries */
 
-/*For larger to medium screen sizes from 1200px wide and down */
-@media screen and (max-width: 1200px;) {
-#menu {
-    width:100%;
-    height:1200px;
-    margin:0 auto;
-}
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+
+    footer {
+        width:fixed;
+    }
+
+    home {
+        width:fixed;
+        font-weight:400;
+    }
+
+    #gallery-slider-images {
+        width:fixed;
+    }
+
 }
