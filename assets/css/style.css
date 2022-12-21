@@ -11,6 +11,8 @@ body {
     font-family: Cormorant Garamond, sans-serif;
     font-weight:300;
     overflow:none;
+    background-color: #121210;
+    width:auto;
 }
 
 /* navigation links */
@@ -22,13 +24,14 @@ header {
 }
 
 #menu {
-    font-size: 120%;
+    font-size: 140%;
 }
 
 #menu li {
     float:right;
     list-style-type: none;
     margin-right:150px;
+    width:auto;
 }
 
 #menu a {
@@ -64,7 +67,7 @@ header {
 
 #home {
     height: 500px;
-    width:100%;
+    width:100% auto;
     background-color:#121210;
     color:#dfdfdf;
 }
@@ -114,8 +117,8 @@ header {
 #about-us {
     height: 500px;
     width:100%;
-    background-color:#f1ebd3;
-    color:#121210;
+    background-color:#333639;
+    color:#dfdfdf;
     line-height: 25px;
 }
 
@@ -137,7 +140,7 @@ hr {
 #about-left-section h2 {
     margin-bottom: 25px;
     font-family: Cormorant Garamond, sans-serif;
-    font-weight:600;
+    font-weight:300;
     text-transform: capitalize;
 }
 
@@ -183,7 +186,7 @@ hr {
     height:250px;
     border-style:solid;
     border-color:#c24643;
-    border-width:5px;
+    border-width:4px;
     border-radius: 120px 0 0 120px;
     transform: rotate(90deg);
     background: url(images/vintage-photo-2.jpg)no-repeat center center;
@@ -233,7 +236,7 @@ border-radius: 50%;
     height:12px;
     width:12px;
     border-radius:50%;
-    border:solid thin #333639;
+    border:solid thin #dfdfdf;
     cursor:pointer;
     transition: all 0.15s ease;
     margin:5px;
@@ -265,11 +268,17 @@ border-radius: 50%;
 
 /* get in touch section */
 
+footer {
+    width:100%;
+    background-color: #121210;
+}
+
 #get-in-touch {
-        background-color:#fff;
+        background-color:#333639;
         height:150px;
         width:100%;
-        padding-left:90px;
+        border-left:1px;
+        border-right:20px;
         padding-top:20px;
         position:absolute;
 }
@@ -280,9 +289,8 @@ border-radius: 50%;
 }
 
 .get-in-touch-form {
-    background-color:#121210;
-    padding: 10px;
-    width:80%;
+    background-color:#333639;
+    width:100%;
     position:absolute;
     color:#fff;
 }
@@ -291,5 +299,25 @@ border-radius: 50%;
     line-height: 20px;
     padding: 10px 10px;
     text-align: center;
-    text-indent: 4em;
+    text-indent: 3em;
+}
+
+.submit-button{
+    padding:4px;
+    border-radius:2px;
+}
+.submit-button:hover {
+    background-color: #c24643;
+    color: #fff;
+}
+
+/* Media queries */
+
+/*For larger to medium screen sizes from 1200px wide and down */
+@media screen and (max-width: 1200px;) {
+#menu {
+    width:100%;
+    height:1200px;
+    margin:0 auto;
+}
 }
