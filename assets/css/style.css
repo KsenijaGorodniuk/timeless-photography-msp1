@@ -72,7 +72,7 @@ header {
     float:left;
     background-color:#121210;
     margin-top: 200px;
-    margin-left:15px
+    margin-left:15px;
 }
 
 #left-hero-text h1 {
@@ -114,22 +114,64 @@ header {
 #about-us {
     height: 500px;
     width:100%;
-    background-color:#babfaa;
+    background-color:#f0ead4;
     color:#121210;
+    line-height: 25px;
+}
+
+hr {
+    border-top: 1px solid #333639;
+    width:30%;
+    margin-bottom:7px;
 }
 
 #about-left-section {
     padding-top:30px;
     width:33%;
     float:left;
-    background-color: azure;
+    background-color: #f1ebd3;
+    text-align: left;
+    margin-bottom: 25px;
+    margin-left: 15px;
+}
+
+#about-left-section h2 {
+    margin-bottom: 35px;
+    font-family: Cormorant Garamond, sans-serif;
+    font-weight:600;
+    text-transform: capitalize;
+}
+
+.text p {
+    margin-bottom:17px;
+    font-family: Arapey, sans-serif;
+    font-weight:150;
+    letter-spacing: 1px;
+}
+
+#about-left-section a {
+    text-decoration:none;
+    color: #c24643;
+}
+
+#about-left-section a:hover {
+    border-bottom: 1px solid #c24643;  
 }
 
 #about-right-section {
     padding-top:30px;
     width:33%;
     float:right;
-    background-color: #121210;
+    background-color: #f1ebd3;
+}
+
+#about-right-section h2 {
+    writing-mode: vertical-rl;
+    text-transform: capitalize;
+    font-size: 250%;
+    margin-left:15px;
+    margin-bottom: 30px;
+    font-weight:500;
 }
 
 #about-center-section {
@@ -137,4 +179,6 @@ header {
     margin:0 auto;
     background-color:#c24643;
 }
+
+
 
