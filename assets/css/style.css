@@ -42,3 +42,25 @@ header {
 #menu .contact {
     color:#c24643
 }
+
+/* home-hero section */
+
+#home {
+    height: 600px;
+    background-color:#121210;
+    color:#dfdfdf;
+    margin-right:20px;
+    margin-left:20px;
+}
+
+#left-hero-text {
+    width:35%;
+    float:left;
+    padding-top:10px;
+}
+
+#right-hero-image {
+    width:65%;
+    float:right;
+    padding-top:10px;
+}
