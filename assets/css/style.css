@@ -71,7 +71,6 @@ header {
 #left-hero-text {
     width:35%;
     float:left;
-    background-color:#121210;
     margin-top: 200px;
     margin-left:15px;
 }
@@ -91,7 +90,6 @@ header {
 #right-hero-image {
     width:63%;
     float:right;
-    background-color:#121210;
 }
 
 #image-container {
@@ -115,7 +113,7 @@ header {
 #about-us {
     height: 500px;
     width:100%;
-    background-color:#f0ead4;
+    background-color:#f1ebd3;
     color:#121210;
     line-height: 25px;
 }
@@ -127,17 +125,16 @@ hr {
 }
 
 #about-left-section {
-    padding-top:30px;
+    padding-top:25px;
     width:33%;
     float:left;
-    background-color: #f1ebd3;
     text-align: left;
     margin-bottom: 25px;
     margin-left: 15px;
 }
 
 #about-left-section h2 {
-    margin-bottom: 35px;
+    margin-bottom: 25px;
     font-family: Cormorant Garamond, sans-serif;
     font-weight:600;
     text-transform: capitalize;
@@ -163,7 +160,6 @@ hr {
     padding-top:30px;
     width:33%;
     float:right;
-    background-color: #f1ebd3;
 }
 
 #about-right-section h2 {
