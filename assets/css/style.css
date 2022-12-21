@@ -16,7 +16,7 @@ body {
 header {
     width:100%;
     background-color:#121210;
-    padding: 10px 0 30px;
+    padding: 20px 0 30px;
 }
 
 #menu {
@@ -35,9 +35,24 @@ header {
 }
 
 #menu a:hover {
-    border-bottom: 1px solid #dfdfdf;
-    color:#c24643;
+    color:#c24643;  
 }
+
+#menu::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #c24643;
+    transition: width .3s;
+}
+
+#menu:hover::after {
+    width: 100%;
+    transition: width .3s;
+}
+
+
 
 #menu .contact {
     color:#c24643
@@ -46,21 +61,60 @@ header {
 /* home-hero section */
 
 #home {
-    height: 600px;
+    height: 500px;
+    width:100%;
     background-color:#121210;
     color:#dfdfdf;
-    margin-right:20px;
-    margin-left:20px;
 }
 
 #left-hero-text {
     width:35%;
     float:left;
-    padding-top:10px;
+    background-color:#121210;
+    margin-top: 200px;
+    margin-left:15px
 }
 
-#right-hero-image {
-    width:65%;
-    float:right;
-    padding-top:10px;
+#left-hero-text h1 {
+    font-size: 250%;
+    text-transform: capitalize;
+    font-weight:400;
 }
+
+#left-hero-text h2 {
+    font-family: Arapey, sans-serif;
+    letter-spacing:3px;
+    font-weight:200;
+    color:#babfaa;
+}
+#right-hero-image {
+    width:63%;
+    float:right;
+    background-color:#121210;
+}
+
+#image-container {
+    border: 3px solid #fff;
+    width:65%;
+    height:400px;
+    overflow:hidden;
+    margin-left:150px;
+    margin-top:48px;
+    margin-bottom:46px;
+}
+
+#image-container img {
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+
+/* home-hero section */
+
+#about-us {
+    height: 500px;
+    width:100%;
+    background-color:#babfaa;
+    color:#121210;
+}
+
