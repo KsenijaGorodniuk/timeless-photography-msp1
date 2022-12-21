@@ -267,3 +267,21 @@ border-radius: 50%;
 }
 
 /* get in touch section */
+
+#get-in-touch {
+        background-color:#121210;
+        height:300px;
+        width:100%;
+        line-height: 30px;
+        padding-top:30px;
+}
+
+.get-in-touch-form {
+        margin: 0 auto;
+        color: #fff;
+        background-color: rgba(60, 60, 60, 0.8);
+        max-width: 400px;
+        position: absolute;
+        left: 10%;
+        padding: 30px;
+}
