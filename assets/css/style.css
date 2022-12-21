@@ -10,3 +10,35 @@ body {
     font-family: Cormorant Garamond, sans-serif;
     font-weight:300;
 }
+
+/* navigation links */
+
+header {
+    width:100%;
+    background-color:#121210;
+    padding: 10px 0 30px;
+}
+
+#menu {
+    font-size: 120%;
+}
+
+#menu li {
+    float:right;
+    list-style-type: none;
+    margin-right:150px;
+}
+
+#menu a {
+    text-decoration:none;
+    color: #dfdfdf;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #dfdfdf;
+    color:#c24643;
+}
+
+#menu .contact {
+    color:#c24643
+}
