@@ -7,6 +7,7 @@
 }
 
 body {
+    height:100vh;
     font-family: Cormorant Garamond, sans-serif;
     font-weight:300;
 }
@@ -185,7 +186,7 @@ hr {
     height:250px;
     border-style:solid;
     border-color:#c24643;
-    border-width:7px;
+    border-width:5px;
     border-radius: 120px 0 0 120px;
     transform: rotate(90deg);
     background: url(images/vintage-photo-2.jpg)no-repeat center center;
@@ -200,3 +201,69 @@ transform: rotate(-90deg);
 height:100%;
 border-radius: 50%;
 }
+
+/* gallery section */
+
+#gallery-slider {
+    position:relative;
+    width:80%;
+    overflow:hidden;
+    margin:0 auto;
+}
+
+.gallery-slider-images {
+    display:flex;
+    width:100%;   
+}
+
+.gallery-slider-images img {
+    height:500px;
+    width:100%;
+    transition: all 0.15s ease;
+}
+
+.gallery-slider-images input {
+    display:none;
+}
+
+.dots {
+    display:flex;
+    justify-content:center;
+    margin:5px;
+}
+
+.dots label {
+    height:12px;
+    width:12px;
+    border-radius:50%;
+    border:solid thin #333639;
+    cursor:pointer;
+    transition: all 0.15s ease;
+    margin:5px;
+}
+
+.dots label:hover {
+    background: #c24643;
+}
+
+#img1:checked ~ .m1 {
+    margin-left:0;
+}
+
+#img2:checked ~ .m2 {
+    margin-left:-100%;
+}
+
+#img3:checked ~ .m3 {
+    margin-left:-200%;
+}
+
+#img4:checked ~ .m4 {
+    margin-left:-300%;
+}
+
+#img5:checked ~ .m5 {
+    margin-left:-400%;
+}
+
+/* get in touch section */
