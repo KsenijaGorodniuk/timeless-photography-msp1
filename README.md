@@ -241,8 +241,6 @@ Unfortunately, I had to remove most of my media query code, as on some browsers 
 
 **Testing**
 
-
-
 Most of the features were tested immediately when implemented and only if the code proved to be working, new features were added to the website.
 
 Common issues that were resolved when entering the code & looking at the output in a browser:
@@ -270,7 +268,18 @@ A lot of adjustments were done to positioning of the below elements on the page 
 - Form - centering, positioning, spacing
 - Form - hovering over effects
 
+***Lighthouse***
+
+![lighthouse-1](https://user-images.githubusercontent.com/119296654/209125216-33be1c64-3202-4518-8671-4b9a03e46f37.JPG)
+![lighthouse-2](https://user-images.githubusercontent.com/119296654/209125222-1cf46472-25d9-40f0-b91f-09e154e703ac.JPG)
+
+***CSS validator***
+issues were not addressed
+
+![css validator](https://user-images.githubusercontent.com/119296654/209126040-8881ea3f-e4ac-44bb-8e3b-3bae86e7c0f5.JPG)
+
 ***Website***
+
 - The favicon should be visible
 
 ***Navigation bar***
@@ -318,6 +327,7 @@ A lot of adjustments were done to positioning of the below elements on the page 
 - You should get a form submission confirmation (from code institute url for dump forms was used here)
 - Hovering over effect on the submit button should work - the button should change from white to pink and text (button only) should change from black to white
 - Failed - responsiveness
+
 
 ## Deployment
 ___
@@ -374,6 +384,7 @@ CSS Tricks
 Pexels
 DevTools
 Freecode Camp
+AmIresponsive?
 
 ## Acknowledgments
 ____
