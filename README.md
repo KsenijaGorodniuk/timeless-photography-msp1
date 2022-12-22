@@ -1,108 +1,100 @@
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-Welcome KsenijaGorodniuk,
+ # MILESTONE PROJECT 1
+[Link to the website](https://ksenijagorodniuk.github.io/timeless-photography-msp1/)
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+![2  am i responsive io](https://user-images.githubusercontent.com/119296654/209079046-ad377d16-fd79-4d27-88d7-101994237ff5.JPG)
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+## Description
+____
 
-## Gitpod Reminders
+This website was created for a fictional antique photo restoration business.
+As this type of business is often small or even family-run, a customer is always at the very focus of every decision making.
+With that in mind, we can assume that the budget for website development and maintenance may be restricted and that we need the website to be simple, small (only few pages long), but effective and attention-grabbing, so the the sparked interest encourages the customer to get in touch to find out more and allows the business owners to stand out from the competition without enduring high costs for website design and maintenance.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+**Business Objectives:**
 
-`python3 -m http.server`
+1. A simple to maintain and budget-friendly website
+2. An additional outlet (on top of their social media accounts) for a visual representation of the quality service that the business offers
+3. Widened customer target and reach
+4. An opportunity for additional branding and credibility
+5. Additional source of business
 
-A blue button should appear to click: _Make Public_,
+**Customer Objectives:**
 
-Another blue button should appear to click: _Open Browser_.
+1. A website that is easy to access, navigate and read
+2. An opportunity to verify if the business is legitimate
+3. An opportunity to check the quality of work produced by the business
+4. An opporunity to compare the business with other businessesn on the market
+5. An opportunity to get in touch with the business in just one click
+6. A chance to find out more about the owners of the business and how long was the business operating
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+**Improvements to roll out in future:**
 
-A blue button should appear to click: _Make Public_,
+1. A page with a detailed list of services and (estimated) price list
+2. A page about the owners and the team and businesses contributions towards local community
+3. Link and import a preview of social media accounts
+4. Include a "behind-the-scenes" video
+5. Offer online gift vouchers
 
-Another blue button should appear to click: _Open Browser_.
+## UX
+____
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+Overall summary:
 
-To log into the Heroku toolbelt CLI:
+(please remember that the business is fictional)
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+Business owners decided to invest in a website that would be able to showcase their work and spark an interest in customer.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+The main idea was to nurture the customer with an astetically pleasing website and encourage them to get in touch.
 
-------
+The website needed to be functional, simple, yet with corporation of quirky design elements. As the businesses operation is based on creativity, yet very tighly connected to vintage and antique timeline, it was important to show that the business is keeping up with the modern design trends, yet staying true to their main theme.
 
-## Release History
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+Who are our potential customers?
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+Strategy:
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+Scope:
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+Structure:
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+Wireframes and Canva:
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+Design elements:
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+Font, colors, style, images
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+## Features
+____
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+Structure:
+Explain how many pages
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+Design features:
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+Menu (line)
+Gallery (operated by radio buttons)
+Contact us stands out
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+Desired features for future implementation:
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+## Technologies used
+____
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+## Testing
+____
+known bugs
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+## Deployment
+___
+## Credits
+___
+## Resources
+____
+## Acknowledgments
+___
 
-------
 
-## FAQ about the uptime script
 
-**Why have you added this script?**
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
