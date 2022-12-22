@@ -113,8 +113,6 @@ A visual reference of the future website (to simplify the exact layout/color/fon
 
 ### Surface
 
-**DESIGN ELEMENTS:**
-
 ***Fonts***
 
 - The heading font first tested on Canva was not available in Google fonts, so an alternative font (Cormorant Garamond) was found on Google fonts and used.
@@ -137,23 +135,22 @@ A visual reference of the future website (to simplify the exact layout/color/fon
 Minimalist, modern, yet with an "old-school" and vintage aestetic.
 A matching favicon was created with {Favicon.CC](https://www.favicon.cc/) for a more cohesive website look.
 
-__________
 
 ### Features
 
-**DESIGN FEATURES:**
+___
 
 ***Navigation bar***
 
 - Right at the top of the page
 - Consists of 4 navigation links to Home, About us, Gallery and Contact us sections
 - As it was important for the business to encourage people to get in touch with then, Contact Us section was highligthed with  #c24643 shade of pink-red
-- When hovering over, the text changes from white to #c24643 shade of pink-red
+- When hovering over the nav bar, the text on Home, About us and Gallery changes from white to #c24643 shade of pink-red
 - When hovering over, a pink-red line comes through above the menu, to emphasise to the customer that their cursor is on the navigation section
 - The menu is positioned slightly to the left of the screen, which allowed the business name in the section below to stand out more
 - Black background
 
-***HERO SECTION***
+***Hero Section***
 
 - Right below the navigation bar
 - Linked to and appears on the navigation bar
@@ -203,21 +200,169 @@ __________
 - Adding the smooth scroll effect, as it potentically can have a negative impact on accessibility.
 [CSS tricks Blog](https://css-tricks.com/snippets/jquery/smooth-scrolling/)
 
+
 ## Technologies used
 ____
 
+***Laguages***
+
+- HTML5
+- CSS3
+
+***Integrated***
+
+- Google Fonts (fonts)
+- Favicon.CC (favicon)
+
+***Workspace***
+
+- GitPod (IDE coding environment)
+- GitHub (Hosting platform/service for storing and managing my repositories)
+
+***Other***
+
+- Balsamiq (desktop, tablet, mobile viewport wireframes)
+- Canva (this design tool was used to create a visual reference of the future website)
+- Git (version control)
+- Google chrome devtools (for temporary editing and debugging)
+
 ## Testing
 ____
-known bugs
+
+This website was tested manually by 2 people (myself and my friend) on Microsoft Edge, Opera and Google Chrome browsers using laptop, tablet and phone devices.
+The website was loading fast, the navigation and other elements worked as intented.
+
+However, there is a big issue with responsiveness of the website. 
+
+The website does not behave as it should. Many items were checked and tested to resolve this and my personal feel is that the core structure needs re-arranging.
+I did not use Bootstrap when building my website and I believe this could have been avoided if I availed of the technology.
+
+Unfortunately, I had to remove most of my media query code, as on some browsers it was conflicting with other elements on the page, even on viewport that it was designed in (standard laptop).
+
+**Testing**
+
+
+
+Most of the features were tested immediately when implemented and only if the code proved to be working, new features were added to the website.
+
+Common issues that were resolved when entering the code & looking at the output in a browser:
+
+- Spelling mistakes
+- Wrong fonts used
+- Wrong colors used
+- Brackets not closed
+- Wrong mapping of the images
+- Width of gallery sliders (so they match the width of the gallery and dont overlap)
+
+A lot of adjustments were done to positioning of the below elements on the page (via code and direct output and via temporary adjustments on Google dev tools):
+
+- Font-size and font-weight
+- Nav bar - positioning
+- Nav bar - spacing
+- Nav bar  - hovering over effects
+- Hero image positioning and size
+- Arc element positioning and size
+- Arc element - border width
+- Arc element - picture positioning
+- Gallery - size, centering, positioning
+- Gallery - hovering over effects, background colors
+- Gallery - radio buttons functionality, spacing, size, positioning
+- Form - centering, positioning, spacing
+- Form - hovering over effects
+
+***Website***
+- The favicon should be visible
+
+***Navigation bar***
+
+- The nav bar elements should be positioned slightly to the left
+- A red line should come through above the menu when the coursor is one one of the navigation elements
+- A font color should change to red when hovering over the Home, About us, Contact us sections
+- Failed - responsiveness
+
+***Hero Section***
+
+- Right below the navigation bar
+- When home is selected on the nav bar, this section should appear
+- Text (business name and slogan) and photograph should load
+- Failed - responsiveness
+
+***About Us***
+
+- Below the Hero section
+- Linked to and appears on the navigation bar
+- When about us is selected on the nav bar, this section should appear
+- 2 text elements (about us and slogan) with arc shaped image should load; arc border should be red
+- On the left - about us section, middle - arc image, right - vertical text
+- Slogan should appear as a vertical text element
+- A hyperlinked text element that (when clicked) should bring to the contact us section
+- Failed - responsiveness
+
+***Gallery***
+
+- Below the About us section
+- Linked to and appears on the navigation bar
+- When Gallery is selected on the nav bar, this section should appear
+- Gallery of photos (5 in total) should load
+- Gallery should appear wide and centered on that section
+- Images are selected via radio buttons
+- When hovering over the radio buttons, they should change their color from black to red
+- Failed - responsiveness
+
+***Contact us***
+
+- Test of the navigation link in the nav bar
+- When Contact us is selected on the nav bar, this section should appear
+- Text input fields, check boxes and submission button should work
+- Last name section should not be mandatiory
+- You should get a form submission confirmation (from code institute url for dump forms was used here)
+- Hovering over effect on the submit button should work - the button should change from white to pink and text (button only) should change from black to white
+- Failed - responsiveness
 
 ## Deployment
 ___
+
+The website was designed on GitPod (linked to GitHub) and was deployed to GitHub. 
+Master branch was selected on GitHub pages.
+
 ## Credits
 ___
+[Banda agency Chornobyl case](https://bandaagency.com/case/chernobyl)
+Their Chornobyl case was an inspiration to my project
+
+[Canva](https://www.canva.com/)
+Their design tool helped me to better imagine what the finished product should look like and select the right fonts/colors/images.
+
+[Balsamiq](https://balsamiq.com/wireframes/?gclid=CjwKCAiAnZCdBhBmEiwA8nDQxcDZTxYuzr8QiC1qlYXy0zf1p3vq2Yn6z83GXngt2bqR9ynoHBWulhoCiloQAvD_BwE)
+This tool helped me to decide on the layout (for desktop, laptop and mobile viewports) and main elements that should be included on the website.
+
+[YouTube](https://www.youtube.com/shorts/xtvlivrfMB0)
+Helped me to beter position, size adjust my own image box
+
+[Codepen](https://codepen.io/martinwolf/pen/eNNdme)
+Helped me to adjust my hover effects
+
+Love running Code Institute - the code from the 3 element section (benefits + image) has inspired and helped to create my own About us section
+
+[Sololearn](https://www.sololearn.com/discuss/3004855/how-to-create-an-arc-with-the-help-of-css)
+Helped me with my arc element (about us section)
+
+[Youtube](https://www.youtube.com/watch?v=3MoRr5sudO0)
+Inspired me and helped me to create the radio-button controlled gallery
+
+Slack channel - peer review readme were used as a guide for my own readme
+[Elon Masney](https://github.com/elomasney/Lomasney-Motors-1.0)
+
+
+
+
 ## Resources
+
 ____
 ## Acknowledgments
 ___
+
+A big thank you to my course facilitator Irene who has motivated me and encouraged me through the entire project.
 
 
 
