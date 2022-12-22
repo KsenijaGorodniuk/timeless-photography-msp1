@@ -69,8 +69,22 @@ It was important for the business to have a website that can demonstrate their w
 
 ### Scope:
 
+The time frame, business goals and my own skills naturally dictated the the path of minimalist website that will be only few pages long and will be divided 50/50 between meeting business goals and customer objectives, without complicated colour schemes and with only few focus points per each section. 
 
-Structure:
+The following principle (for website content p/section) was determined early on:
+
+- visual + informative element (image + text) - option 1
+- informative element only (text/form) - option 2
+- visual element only (image) - option 3
+
+### Structure:
+
+The website consists of the following sections and elements:
+
+- Navigation menu (header section)
+- Hero section with company's name
+- Gallery section
+- Get in touch (footer) section
 
 Wireframes and Canva:
 
