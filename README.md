@@ -113,25 +113,26 @@ A visual reference of the future website (to simplify the exact layout/color/fon
 
 ### Surface
 
-**Design elements:**
+**DESIGN ELEMENTS:**
 
-*FONTS*
+***Fonts***
+
 - The heading font first tested on Canva was not available in Google fonts, so an alternative font (Cormorant Garamond) was found on Google fonts and used.
 - The rest of the text is in Arapey font from Google fonts
 - To stand out and draw user's attention, some text sections were made bold, and some italicized
 
-*COLOR PALETTE*
+***Color Palette***
 
 **#121210 black, #c24643 shade of pink-red, #333639 grey + white shades (#dfdfdf, #babfaa, #fff)**
 
-The above colors comliment client's antique/vintage theme of restored photographs and stand out well on a page (high contrast levels).
+- The above colors comliment client's antique/vintage theme of restored photographs and stand out well on a page (high contrast levels).
 #c24643 shade of pink-red was added to this palette to bring some quirkiness and freshness to this color mix and was used to make selected elements stand out on a page.
 
-*IMAGES*
+***Images***
 
-As this is a fictional business, I used antique and vintage images sourced from {Pexels](https://www.pexels.com/).
+- As this is a fictional business, I used antique and vintage images sourced from {Pexels](https://www.pexels.com/).
 
-*OVERALL STYLE*
+***Overall style***
 
 Minimalist, modern, yet with an "old-school" and vintage aestetic.
 A matching favicon was created with {Favicon.CC](https://www.favicon.cc/) for a more cohesive website look.
@@ -140,9 +141,9 @@ __________
 
 ### Features
 
-**Design features:**
+**DESIGN FEATURES:**
 
-*NAVIGATION BAR/MENU*
+***Navigation bar***
 
 - Right at the top of the page
 - Consists of 4 navigation links to Home, About us, Gallery and Contact us sections
@@ -152,14 +153,14 @@ __________
 - The menu is positioned slightly to the left of the screen, which allowed the business name in the section below to stand out more
 - Black background
 
-*HERO SECTION*
+***HERO SECTION***
 
 - Right below the navigation bar
 - Linked to and appears on the navigation bar
 - Consists of text (business name and slogan) and an old photograph that along with the business name, helps to immediately identify what service is the business offering
 - Black background
 
-*ABOUT US*
+***About Us***
 
 - Below the Hero section
 - Linked to and appears on the navigation bar
@@ -170,7 +171,7 @@ __________
 - Includes an additional slogan (vertical text)
 - Black background
 
-*GALLERY*
+***Gallery***
 
 - Below the About us section
 - Linked to and appears on the navigation bar
@@ -178,7 +179,7 @@ __________
 - When hovering over the radio buttons, they change their color from black to #c24643 shade of pink-red
 - Black background
 
-*GALLERY*
+***Contact us***
 
 - Below the Gallery section
 - Linked to and appears on the navigation bar
@@ -187,7 +188,7 @@ __________
 - When hovering over the submit button, it changes it's background color and text (from white background color to #c24643 shade of pink-red; from black text to white)
 - Black background
 
-*the below points were also listed in the description section*
+*(from the description section)*
 
 **Desired features for future implementation:**
 
@@ -197,9 +198,9 @@ __________
 - Offer online gift vouchers (purchase page)
 - Customer account feature with ongoing and finished projects
 
-**Avoided**
+**Avoided:**
 
-Adding the smooth scroll effect, as it potentically can have a negative impact on accessibility.
+- Adding the smooth scroll effect, as it potentically can have a negative impact on accessibility.
 [CSS tricks Blog](https://css-tricks.com/snippets/jquery/smooth-scrolling/)
 
 ## Technologies used
