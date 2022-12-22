@@ -31,11 +31,11 @@ With that in mind, we can assume that the budget for website development and mai
 
 **Improvements to roll out in future:**
 
-1. A page with a detailed list of services and (estimated) price list
-2. A page about the owners and the team and businesses contributions towards local community
-3. Link and import a preview of social media accounts
-4. Include a "behind-the-scenes" video
-5. Offer online gift vouchers
+1. Add page with a detailed list of services and (estimated) price list
+2. Add page about the team and businesses contributions towards local community (with images)
+3. Section with links and icons for social media
+5. Include a "behind-the-scenes" video
+6. Offer online gift vouchers
 
 ## UX
 ____
@@ -78,10 +78,11 @@ The following principle (for website content p/section) was determined early on:
 
 ### Structure:
 
-The website consists of the following sections and elements:
+This single-page website consists of the following sections and elements:
 
 - Navigation menu (header section)
 - Hero section with company's name
+- About us section
 - Gallery section
 - Get in touch (footer) section
 
@@ -138,16 +139,68 @@ A matching favicon was created with {Favicon.CC](https://www.favicon.cc/) for a 
 __________
 
 ### Features
-____
-Design features:
 
-Menu (line)
-Gallery (operated by radio buttons)
-Contact us stands out
+**Design features:**
 
-Desired features for future implementation:
+*NAVIGATION BAR/MENU*
 
-avoided the smooth scroll effect
+- Right at the top of the page
+- Consists of 4 navigation links to Home, About us, Gallery and Contact us sections
+- As it was important for the business to encourage people to get in touch with then, Contact Us section was highligthed with  #c24643 shade of pink-red
+- When hovering over, the text changes from white to #c24643 shade of pink-red
+- When hovering over, a pink-red line comes through above the menu, to emphasise to the customer that their cursor is on the navigation section
+- The menu is positioned slightly to the left of the screen, which allowed the business name in the section below to stand out more
+- Black background
+
+*HERO SECTION*
+
+- Right below the navigation bar
+- Linked to and appears on the navigation bar
+- Consists of text (business name and slogan) and an old photograph that along with the business name, helps to immediately identify what service is the business offering
+- Black background
+
+*ABOUT US*
+
+- Below the Hero section
+- Linked to and appears on the navigation bar
+- Consists of text elements and a picture
+- Tells the users about the business and about business owners
+- Features a hyperlinked text element that (when clicked) brings users to the contact us section
+- Features a vintage photograph of a girl reading a newspaper (as this section has the largest text content) wrapped in #c24643 shade of pink-red arch
+- Includes an additional slogan (vertical text)
+- Black background
+
+*GALLERY*
+
+- Below the About us section
+- Linked to and appears on the navigation bar
+- Consists of gallery of photos (5 in total) operated by radio buttons
+- When hovering over the radio buttons, they change their color from black to #c24643 shade of pink-red
+- Black background
+
+*GALLERY*
+
+- Below the Gallery section
+- Linked to and appears on the navigation bar
+- Contrasting color heading that matches the navigation bar
+- Consists of form with text input fields, check boxes and submission button
+- When hovering over the submit button, it changes it's background color and text (from white background color to #c24643 shade of pink-red; from black text to white)
+- Black background
+
+*the below points were also listed in the description section*
+
+**Desired features for future implementation:**
+
+- Social media section with social media icons
+- A page with a detailed list of services and (estimated) price list
+- Replace the images and text with "behind-the-scenes" video in hero section
+- Offer online gift vouchers (purchase page)
+- Customer account feature with ongoing and finished projects
+
+**Avoided**
+
+Adding the smooth scroll effect, as it potentically can have a negative impact on accessibility.
+[CSS tricks Blog](https://css-tricks.com/snippets/jquery/smooth-scrolling/)
 
 ## Technologies used
 ____
