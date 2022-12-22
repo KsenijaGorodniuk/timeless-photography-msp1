@@ -48,10 +48,13 @@ Business owners decided to invest in a website that would be able to showcase th
 
 The main idea was to nurture the customer with an astetically pleasing website and encourage them to get in touch.
 
-The website needed to be functional, simple, yet with corporation of quirky design elements. As the businesses operation is based on creativity, yet very tighly connected to vintage and antique timeline, it was important to show that the business is keeping up with the modern design trends, yet staying true to their main theme.
-
+The website needed to be functional, simple, yet with corporation of quirky design elements. As the businesses operation is based on hand-on creativity, yet very tighly connected to vintage and antique timeline, it was important to show that the business is keeping up with the modern design trends, yet staying true to their main vintage theme.
 
 Who are our potential customers?
+
+After inspecting their main customer profiles, the business confirmed that their main target audience is comprised of 45-65 age group of working professionals with children.
+Restoring family heilrooms and memories is incredibly important to them. Not only to relive the happy moments from their childhood, or to gift their parents with a restored old wedding photograph, but to pass this small family heritage to their own children.
+Being able to know that the business understands the emotional value behind the services that they provide and is able to produce quality work out of severely damaged or faded pictures is their number one priority. Helping the business to stand out from the competition, whist translating back to the customer the values mentioned above, was my own priority when completing this project.
 
 Strategy:
 
