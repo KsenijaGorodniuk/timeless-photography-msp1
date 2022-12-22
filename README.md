@@ -352,17 +352,33 @@ Inspired me and helped me to create the radio-button controlled gallery
 
 Slack channel - peer review readme were used as a guide for my own readme
 [Elon Masney](https://github.com/elomasney/Lomasney-Motors-1.0)
+[Santorini Nail Bar](https://github.com/SPH73/Santorini-nail-bar)
+[Samar Ziadat](https://github.com/SamarZiadat/charlotte-the-decorator)
 
+[HubSpot Blog](https://blog.hubspot.com/website/html-space)
+Helped with text indention on the contact us form
 
-
+[Markdown language guide](https://www.markdownguide.org/basic-syntax/#headings)
+Helped to style my Readme.md file
 
 ## Resources
+_____
 
-____
+Code Institute learning platform
+Slack peer review & class channel
+W3 Schools
+Stackoverflow
+YouTube
+Balsamiq Wireframes
+CSS Tricks
+Pexels
+DevTools
+Freecode Camp
+
 ## Acknowledgments
-___
+____
 
-A big thank you to my course facilitator Irene who has motivated me and encouraged me through the entire project.
+Very grateful to my course facilitator Irene who has motivated me and encouraged me through the entire project.
 
 
 
