@@ -66,7 +66,6 @@ My mission was to produce a website, that can stand out from the competition, ye
 
 It was important for the business to have a website that can demonstrate their work, values, professionalism and taste of style, without overloading the customer with information or visual elements. As the business is built on creativity and craftsmanship, it was important to communicate it back via website design to the customer.
 
-
 ### Scope:
 
 The time frame, business goals and my own skills naturally dictated the the path of minimalist website that will be only few pages long and will be divided 50/50 between meeting business goals and customer objectives, without complicated colour schemes and with only few focus points per each section. 
@@ -86,18 +85,60 @@ The website consists of the following sections and elements:
 - Gallery section
 - Get in touch (footer) section
 
-Wireframes and Canva:
+Although the website needed to look attractive and showcase the work of the business, it was important to keep the element structure simple and make sure that every element compliments another and the website's appearance is cohesive across all sections.
 
-Design elements:
+This was achieved by deciding early on the sections (above), not adding more elements than those that were included in the wireframe and sticking to the selected color theme and layout.
 
-Font, colors, style, images
+### Skeleton
 
-## Features
+Wireframes were designed with [Balsamiq](https://balsamiq.com/wireframes/?gclid=CjwKCAiAnZCdBhBmEiwA8nDQxcDZTxYuzr8QiC1qlYXy0zf1p3vq2Yn6z83GXngt2bqR9ynoHBWulhoCiloQAvD_BwE)
+
+#### Desktop viewport wireframe
+
+![balsamiq-desktop-mp1](https://user-images.githubusercontent.com/119296654/209097107-4e9355aa-35fa-49c9-b221-9f9aa904e8d2.png)
+
+#### Mobile viewport wireframe
+
+![balsamiq-mobile-mp1](https://user-images.githubusercontent.com/119296654/209097111-df48d3f5-5cfa-45c8-9db5-66182560e8a8.png)
+
+#### Tablet viewport wireframe
+
+![balsamiq-tablet-mp1](https://user-images.githubusercontent.com/119296654/209097114-93ccb388-e286-49b7-ae23-21038b6f9853.png)
+
+A visual reference of the future website (to simplify the exact layout/color/font shoices) was designed in [Canva](https://www.canva.com/)
+
+![canva-1](https://user-images.githubusercontent.com/119296654/209099314-1dd79308-505e-4e3c-a2dd-c011a1d5c54b.png)
+![canva-2](https://user-images.githubusercontent.com/119296654/209099320-96761ae3-a621-487b-8c23-2f92a9471932.png)
+
+### Surface
+
+**Design elements:**
+
+*FONTS*
+- The heading font first tested on Canva was not available in Google fonts, so an alternative font (Cormorant Garamond) was found on Google fonts and used.
+- The rest of the text is in Arapey font from Google fonts
+- To stand out and draw user's attention, some text sections were made bold, and some italicized
+
+*COLOR PALETTE*
+
+**#121210 black, #c24643 shade of pink-red, #333639 grey + white shades (#dfdfdf, #babfaa, #fff)**
+
+The above colors comliment client's antique/vintage theme of restored photographs and stand out well on a page (high contrast levels).
+#c24643 shade of pink-red was added to this palette to bring some quirkiness and freshness to this color mix and was used to make selected elements stand out on a page.
+
+*IMAGES*
+
+As this is a fictional business, I used antique and vintage images sourced from {Pexels](https://www.pexels.com/).
+
+*OVERALL STYLE*
+
+Minimalist, modern, yet with an "old-school" and vintage aestetic.
+A matching favicon was created with {Favicon.CC](https://www.favicon.cc/) for a more cohesive website look.
+
+__________
+
+### Features
 ____
-
-Structure:
-Explain how many pages
-
 Design features:
 
 Menu (line)
@@ -105,6 +146,8 @@ Gallery (operated by radio buttons)
 Contact us stands out
 
 Desired features for future implementation:
+
+avoided the smooth scroll effect
 
 ## Technologies used
 ____
